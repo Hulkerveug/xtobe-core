@@ -1,0 +1,14 @@
+{
+  "name": "xtobe-relay-server",
+  "version": "1.0.0",
+  "description": "Xtobe E2EE Relay Server — Real WebSocket + AES-256-GCM",
+  "main": "relay-server.js",
+  "scripts": {
+    "start": "node relay-server.js",
+    "dev": "node --watch relay-server.js"
+  },
+  "dependencies": {
+    "ws": "^8.16.0",
+    "better-sqlite3": "^11.0.0"
+  }
+}
